@@ -6,7 +6,7 @@
       <ul id="details">
         <li>4+ years experience in Web Development</li>
         <li>
-          Experienced in IT solution, Insurance Broker, and Media Industry
+          Experienced in IT solution, Insurance Brokerage, and Media Industry
         </li>
         <li>Master of Engineering (Computer Engineering)</li>
         <li>Arriving in Vancouver on June 23rd</li>
@@ -22,11 +22,22 @@
     </div>
     <div class="about-me">
         Hello, My name is Yuliana Y. Shin. I used to work as Full Stack Web Developer in Korea.
+        Responsible, Elaborate
     </div>
     <div class="skills">
         Skill Sets
+    </div>
+    <div class="assessment">
+        What I got from the Manager Assessment
         <br/>
-        years of used excluding academic years
+        What are some things Yuliana does well?
+        <ul>
+          <li>Produce stable and reliable output with good quality control and very efficient in communication</li>
+          <li>Clear and effective communivation and reliable output</li>
+          <li>Secure and detailed in analytic and testing</li>
+          <li>Elaborate case analysis</li>
+        </ul>
+        
     </div>
   </div>
 </template>
