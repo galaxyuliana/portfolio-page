@@ -5,70 +5,50 @@ export default {
   data() {
     return {
       skillsData: [
-        ["Year", "Usage"],
-        [".NET", 5],
-        ["C#", 5],
-        ["Java", 1],
-        ["HTML", 5],
-        ["JavaScript", 5],
-        ["JQuery", 3],
-        ["XML", 4],
-        ["MSSQL", 5],
+        ["Skill", "Years Used"],
+        [".NET", 4.5],
         ["AJAX", 3],
-        ["MS-Exchange", 1],
-        ["Oracle DB", 1],
-        ["JSON", 3],
-        ["Vue.js", 1.2],
         ["Android Application - Java", 0.8],
-        ["iOS - Swift", 0.3],
         ["AWS", 0.5],
-        ["CSS", 5],
+        ["C#", 4.5],
+        ["CSS", 4.5],
+        ["HTML", 4.5],
+        ["iOS - Swift", 0.3],
+        ["Java", 1],
+        ["JavaScript", 4.5],
+        ["JQuery", 3],
+        ["JSON", 3],
+        ["MS-Exchange", 1],
+        ["MSSQL", 4.5],
+        ["Oracle DB", 1],
         ["SCSS", 3],
+        ["Vue.js", 1.2],
+        ["XML", 3],
       ],
       toolsData: [
-        ["Year", "Usage"],
-        ["Jira", 1.3],
-        ["SVN", 1.2],
-        ["Visual Studio", 5],
-        ["Visual Studio Code", 4],
-        ["DBeaver", 1.2],
-        ["SQL Developer", 0.8],
+        ["Tool", "Years Used"],
         ["Android Studio", 0.8],
-        ["XCode", 0.3],
-        ["Git", 3],
-        ["SQL Server Management Studio", 5],
-        ["Exchange Powershell", 1],
-        ["Azure DevOps Server", 2.5],
         ["AppVeyor", 2.5],
+        ["Azure DevOps Server", 2.5],
+        ["DBeaver", 1.2],
+        ["Exchange Powershell", 1],
+        ["Git", 3],
+        ["Jira", 1.2],
+        ["SQL Developer", 0.5],
+        ["SQL Server Management Studio", 4.5],
+        ["SVN", 1.2],
+        ["Visual Studio", 4.5],
+        ["Visual Studio Code", 3.5],
+        ["XCode", 0.3],
         ["Zeplin", 2.5],
       ],
       skillsOptions: {
-        chart: {
-          title: "Skill sets",
-          subtitle: "usage",
-        },
-        hAxis: {
-          title: "Usage Years",
-          minValue: 0,
-        },
-        vAxis: {
-          title: "Skills",
-        },
-        height: 700,
+        height: 500,
+        colors: ["#61718A"],
       },
       toolsOptions: {
-        chart: {
-          title: "Skill sets",
-          subtitle: "usage",
-        },
-        hAxis: {
-          title: "Usage Years",
-          minValue: 0,
-        },
-        vAxis: {
-          title: "Tools",
-        },
-        height: 700,
+        height: 500,
+        colors: ["#8C97A9"],
       },
     };
   },
@@ -101,11 +81,14 @@ export default {
       </ul>
     </div>
     <div class="about-me">
-        Hello, My name is Yuliana Y. Shin. I used to work as Full Stack Web Developer in Korea.
-        Responsible, Elaborate
+      Hello, My name is Yuliana Y. Shin.<br />
+      I'm a full stack developer who can handle both frontend and backend.<br />
+      I have worked as a .NET web developer in Korea for over 4 years,
+      and I will be arriving in Vancouver on June 23rd to start a new chapter in life.<br />
+      I am the one who is Responsible and Adaptable.
     </div>
     <div class="skills">
-      Skill Sets
+      Technical Skills
       <GChart type="BarChart" :data="skillsData" :options="skillsOptions" />
       <GChart type="BarChart" :data="toolsData" :options="toolsOptions" />
     </div>
