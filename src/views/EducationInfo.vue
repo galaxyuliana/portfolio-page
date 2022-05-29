@@ -46,7 +46,7 @@
         <p>Mar. 2014 ~ Feb. 2017</p>
         <p>
           I wanted to become a developer, so I went to a college where I could learn more about practical work.
-          I was able to experience various programming languages such as Java, .NET, C#, HTML, JQuery, MS-SQL, and Android.
+          I was able to experience various programming languages such as Java, .NET, C#, HTML, JQuery, SQL, and Android.
         </p>
       </div>
     </div>

@@ -1,42 +1,45 @@
 <template>
   <div class="company-container">
-        <h1>Company</h1>
+    <h1>Company</h1>
     <div class="company-list">
       <div class="company-item">
         <img
           src="https://keymedia.com/images/Key-Media-Pty-Ltd_Leading-International-Media-Company-2018.png"
         />
-        <h4>KEY MEDIA PTY LTD</h4>
-        <h4>Seoul, Republic of Korea</h4>
-        <h4>Junior Web Developer</h4>
-        <h4>Web Department</h4>
-        <h4>Full-time, Full Stack Web Developer</h4>
-        <h4>Aug. 2019 ~ Mar. 2022</h4>
-        <h4>Web development and maintenance of magazine sites in 8 fields including mortgage, insurance, HR, safety, education, consumer, law and wealth</h4>
+        <p>KEY MEDIA PTY LTD</p>
+        <p>Seoul, Republic of Korea</p>
+        <p>Junior Web Developer</p>
+        <p>Web Department</p>
+        <p>Full-time, Full Stack Web Developer</p>
+        <p>Aug. 2019 ~ Mar. 2022</p>
+        <p>Web development and maintenance of magazine sites in 8 fields including mortgage, insurance, HR, safety, education, consumer, law and wealth.</p>
+        <a href="#">Featured Projects</a>
       </div>
       <div class="company-item">
         <img
           src="https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
         />
-        <h4>Marsh Korea</h4>
-        <h4>Seoul, Republic of Korea</h4>
-        <h4>Web Developer</h4>
-        <h4>GIT</h4>
-        <h4>Full-time, Full Stack Web Developer</h4>
-        <h4>Apr. 2018 ~ May. 2019</h4>
-        <h4>Web development for intranet and customer insurance claims</h4>
+        <p>Marsh Korea</p>
+        <p>Seoul, Republic of Korea</p>
+        <p>Web Developer</p>
+        <p>GIT</p>
+        <p>Full-time, Full Stack Web Developer</p>
+        <p>Apr. 2018 ~ May. 2019</p>
+        <p>Web development for intranet and customer insurance claims. Customize based on customer requirements and business' needs. Supported for branch offices in Asia Pacific.</p>
+        <a href="#">Featured Projects</a>
       </div>
       <div class="company-item">
         <img
           src="https://www.kaoni.com/wp-content/uploads/2018/04/logofile3.png"
         />
-        <h4>KAONi</h4>
-        <h4>Seoul, Republic of Korea</h4>
-        <h4>Web Developer</h4>
-        <h4>Web Department Team</h4>
-        <h4>Full-time, Full Stack Web Developer</h4>
-        <h4>Apr. 2017 ~ Mar. 2018</h4>
-        <h4>Web development of groupware solutions, in charge of mail, address book, and schedule management modules</h4>
+        <p>KAONi</p>
+        <p>Seoul, Republic of Korea</p>
+        <p>Web Developer</p>
+        <p>Web Department Team</p>
+        <p>Full-time, Full Stack Web Developer</p>
+        <p>Apr. 2017 ~ Mar. 2018</p>
+        <p>Web development of groupware solutions, in charge of mail, address book, and schedule management modules. Customize based on customer requirements.</p>
+        <a href="#">Featured Projects</a>
       </div>
     </div>
   </div>
