@@ -1,6 +1,6 @@
 <template>
   <div class="project-container">
-    <h1>Featured Project</h1>
+    <h1>Featured Projects</h1>
     <div class="project-list">
       <div class="project-item">
         <img
