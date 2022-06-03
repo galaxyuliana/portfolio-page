@@ -100,7 +100,7 @@ export default {
       What are some things Yuliana does well?
       <ul>
         <li>Produce stable and reliable output with good quality control and very efficient in communication</li>
-        <li>Clear and effective communivation and reliable output</li>
+        <li>Clear and effective communication and reliable output</li>
         <li>Secure and detailed in analytic and testing</li>
         <li>Elaborate case analysis</li>
       </ul>
