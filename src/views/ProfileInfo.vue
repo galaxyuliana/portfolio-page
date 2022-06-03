@@ -21,6 +21,8 @@ export default {
         ["Microsoft SQL Server", 4.5],
         ["MS-Exchange", 1],
         ["Oracle DB", 1],
+        ["Python", 1],
+        ["R", 0.5],
         ["SCSS", 3],
         ["Vue.js", 1.2],
         ["XML", 3],
@@ -43,7 +45,7 @@ export default {
         ["Zeplin", 2.5],
       ],
       skillsOptions: {
-        height: 500,
+        height: 600,
         colors: ["#61718A"],
       },
       toolsOptions: {

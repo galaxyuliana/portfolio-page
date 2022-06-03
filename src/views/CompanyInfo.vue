@@ -235,6 +235,10 @@ label::after {
     grid-column: 1 / span 2;
   }
 
+  .desc p {
+    display: inline;
+  }
+
   .btn-project {
     grid-column: 1 / span 2;
     width: 200px;
@@ -277,6 +281,10 @@ label::after {
 
   .desc {
     grid-column: 1 / span 2;
+  }
+
+  .desc p {
+    display: inline;
   }
 
   .btn-project {
