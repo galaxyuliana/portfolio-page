@@ -26,8 +26,8 @@
           <label>GPA</label>
           <p>4.28 / 4.3</p>
         </div>
-        <div class="duration">
-          <label>Duration</label>
+        <div class="period">
+          <label>Period</label>
           <p>Mar. 2019 ~ Aug. 2021</p>
         </div>
         <div class="desc">
@@ -62,8 +62,8 @@
           <label>GPA</label>
           <p>4.5 / 4.5</p>
         </div>
-        <div class="duration">
-          <label>Duration</label>
+        <div class="period">
+          <label>Period</label>
           <p>Mar. 2017 ~ Feb. 2018</p>
         </div>
         <div class="desc">
@@ -96,8 +96,8 @@
           <label>GPA</label>
           <p>4.47 / 4.5</p>
         </div>
-        <div class="duration">
-          <label>Duration</label>
+        <div class="period">
+          <label>Period</label>
           <p>Mar. 2014 ~ Feb. 2017</p>
         </div>
         <div class="desc">

@@ -16,8 +16,8 @@
           <label>Location</label>
           <p>Seoul, Republic of Korea</p>
         </div>
-        <div class="duration">
-          <label>Duration</label>
+        <div class="period">
+          <label>Period</label>
           <p>Aug. 2019 ~ Mar. 2022</p>
         </div>
         <div class="position">
@@ -52,8 +52,8 @@
           <label>Location</label>
           <p>Seoul, Republic of Korea</p>
         </div>
-        <div class="duration">
-          <label>Duration</label>
+        <div class="period">
+          <label>Period</label>
           <p>Apr. 2018 ~ May. 2019</p>
         </div>
         <div class="position">
@@ -88,8 +88,8 @@
           <label>Location</label>
           <p>Seoul, Republic of Korea</p>
         </div>
-        <div class="duration">
-          <label>Duration</label>
+        <div class="period">
+          <label>Period</label>
           <p>Apr. 2017 ~ Mar. 2018</p>
         </div>
         <div class="position">
