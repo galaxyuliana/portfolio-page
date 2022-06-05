@@ -114,7 +114,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .company-container {
   min-height: 100vh;
 }
