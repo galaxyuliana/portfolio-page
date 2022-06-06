@@ -36,6 +36,7 @@ export default {
         ["Exchange Powershell", 1],
         ["Git", 3],
         ["Jira", 1.2],
+        ["QlikView", 0.3],
         ["SQL Developer", 0.5],
         ["SQL Server Management Studio", 4.5],
         ["SVN", 1.2],
