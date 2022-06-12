@@ -1,0 +1,112 @@
+{
+  "projects": [
+    {
+      "company-code": "km",
+      "name": "Lexpert",
+      "type": "Renewal Project",
+      "period": "Dec. 2020 ~ May. 2021",
+      "role": "Publishing, Front-end, Back-end",
+      "contribution": "40%",
+      "skills": ".NET 5, HTML, JavaScript, Microsoft SQL Server, SCSS",
+      "desc": "A renewal project that analyzes and redesign the structure of the lexpert.ca site, which was previously developed based on the .NET Web Forms framework, and then develops it based on the latest framework, .NET 5 Razor Pages."
+    },
+    {
+      "company-code": "mk",
+      "name": "L*******",
+      "type": "New Project",
+      "period": "Apr. 2019 ~ May. 2019",
+      "role": "Front-end",
+      "contribution": "100%",
+      "skills": "Vue.js",
+      "desc": "Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of L*******, a Hong Kong company."
+    },
+    {
+      "company-code": "mk",
+      "name": "i****",
+      "type": "Renewal Project",
+      "period": "Mar. 2019 ~ May. 2019",
+      "role": "Front-end",
+      "contribution": "80%",
+      "skills": ".NET, Microsoft SQL Server, Vue.js, QlikView",
+      "desc": "Applied new design of intranet site i*** that manages company sales and developed with Vue.js to improve speed. Created an internal library so that the eChart.js library that does not support Vue.js can be used in Vue.js."
+    },
+    {
+      "company-code": "mk",
+      "name": "i*** Improvement to prepare for advanced browser",
+      "type": "Renewal Project",
+      "period": "Nov. 2018 ~ May. 2019",
+      "role": "Front-end, Back-end",
+      "contribution": "100%",
+      "skills": ".NET, .NET MVC, Microsoft SQL Server",
+      "desc": "Compatibility work so that the intranet site i*** that manages company sales can work not only in IE but also in cross browsers (Chrome, Firefox, Edge)."
+    },
+    {
+      "company-code": "mk",
+      "name": "H*********",
+      "type": "New Project",
+      "period": "Oct. 2018 ~ May. 2019",
+      "role": "Front-end",
+      "contribution": "100%",
+      "skills": "Vue.js",
+      "desc": "Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of H*********, an Australian company."
+    },
+    {
+      "company-code": "mk",
+      "name": "D*********",
+      "type": "New Project",
+      "period": "Aug. 2018 ~ Mar. 2019",
+      "role": "Front-end",
+      "contribution": "100%",
+      "skills": "Vue.js",
+      "desc": "Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of D*********, a British company."
+    },
+    {
+      "company-code": "mk",
+      "name": "MCare Mobile Enrollment",
+      "type": "Renewal Project",
+      "period": "Sep. 2018 ~ Nov. 2018",
+      "role": "Front-end",
+      "contribution": "30%",
+      "skills": "Vue.js",
+      "desc": "Development of a survey module that allows employees to directly select insurance coverage when providing employee insurance among domestic customers."
+    },
+    {
+      "company-code": "mk",
+      "name": "MCare Group/Menu Management",
+      "type": "Renewal Project",
+      "period": "Jun. 2018 ~ Aug. 2018",
+      "role": "Front-end, Back-end",
+      "contribution": "30%",
+      "skills": ".NET, Microsoft SQL Server, Vue.js",
+      "desc": "Development of admin menu for MCare, an intranet site that manages insurance claims of employees of domestic customers."
+    },
+    {
+      "company-code": "ki",
+      "name": "Seoul National University Bundang Hospital groupware reconstruction",
+      "type": "Renewal Project",
+      "period": "Aug. 2017 ~ Mar. 2018",
+      "role": "Front-end, Back-end, Data Migration",
+      "contribution": "15%",
+      "skills": ".NET, Microsoft SQL Server, MS-Exchange",
+      "desc": "Changed the existing groupware of Seoul National University Bundang Hospital to KAONi's groupware. Customized mail, address book and calendar modules and performed data migration."
+    }
+  ],
+  "company-profiles": [
+    {
+      "company-code": "km",
+      "name": "KEY MEDIA PTY LTD",
+      "url": "https://keymedia.com/images/Key-Media-Pty-Ltd_Leading-International-Media-Company-2018.png"
+    },
+    {
+      "company-code": "mk",
+      "name": "Marsh Korea",
+      "url": "https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
+    },
+    {
+      "company-code": "ki",
+      "name": "KAONi",
+      "url": "https://www.kaoni.com/wp-content/uploads/2018/04/logofile3.png"
+    }
+  ]
+}
+  
