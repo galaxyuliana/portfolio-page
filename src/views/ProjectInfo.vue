@@ -1,365 +1,79 @@
+<script>
+import jsonData from "./../json/data.json";
+export default {
+  data() {
+    return {
+      projects: jsonData.projects,
+      companies: jsonData["company-profiles"],
+    };
+  },
+  methods: {
+    combineJson() {
+      let result = this.projects.reduce((returnArray, item) => {
+        let match = this.companies.find(
+          (el) => el["company-code"] == item["company-code"]
+        );
+        if (match) {
+          returnArray.push({
+            ...item,
+            ["company-name"]: match.name,
+            url: match.url,
+          });
+        }
+        return returnArray;
+      }, []);
+      console.log(result);
+      return result;
+    },
+  },
+};
+</script>
+
 <template>
   <div class="project-container">
     <h1>Featured Projects</h1>
     <div class="project-list">
-      <div class="project-item">
+      <div
+        class="project-item"
+        v-for="project in combineJson()"
+      >
         <div class="project-info">
           <div class="company-info">
             <img
-              src="https://keymedia.com/images/Key-Media-Pty-Ltd_Leading-International-Media-Company-2018.png"
+              :src="project.url"
               class="logo"
             />
             <div class="company-name">
-              <p>KEY MEDIA PTY LTD</p>
+              <p>{{ project["company-name"] }}</p>
             </div>
           </div>
           <div class="name">
-            <p>Lexpert</p>
+            <p>{{ project.name }}</p>
           </div>
         </div>
         <div class="type">
           <label>Type</label>
-          <p>Renewal project</p>
+          <p>{{ project.type }}</p>
         </div>
         <div class="period">
           <label>Period</label>
-          <p>Dec. 2020 ~ May. 2021</p>
+          <p>{{ project.period }}</p>
         </div>
         <div class="role">
           <label>Role</label>
-          <p>Publishing, Front-end, Back-end</p>
+          <p>{{ project.role }}</p>
         </div>
         <div class="contribution">
           <label>Contribution</label>
-          <p>40%</p>
+          <p>{{ project.contribution }}</p>
         </div>
         <div class="skills">
           <label>Skills</label>
-          <p>.NET 5, HTML, JavaScript, Microsoft SQL Server, SCSS</p>
+          <p>{{ project.skills }}</p>
         </div>
         <div class="desc">
           <label>Description</label>
-          <p>A renewal project that analyzes and redesign the structure of the lexpert.ca site, which was previously developed based on the .NET Web Forms framework, and then develops it based on the latest framework, .NET 5 Razor Pages.</p>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <div class="company-info">
-            <img
-              src="https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
-              class="logo"
-            />
-            <div class="company-name">
-              <p>Marsh Korea</p>
-            </div>
-          </div>
-          <div class="name">
-            <p>L*******</p>
-          </div>
-        </div>
-        <div class="type">
-          <label>Type</label>
-          <p>New Project</p>
-        </div>
-        <div class="period">
-          <label>Period</label>
-          <p>Apr. 2019 ~ May. 2019</p>
-        </div>
-        <div class="role">
-          <label>Role</label>
-          <p>Front-end</p>
-        </div>
-        <div class="contribution">
-          <label>Contribution</label>
-          <p>100%</p>
-        </div>
-        <div class="skills">
-          <label>Skills</label>
-          <p>Vue.js</p>
-        </div>
-        <div class="desc">
-          <label>Description</label>
-          <p>Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of L*******, a Hong Kong company.</p>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <div class="company-info">
-            <img
-              src="https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
-              class="logo"
-            />
-            <div class="company-name">
-              <p>Marsh Korea</p>
-            </div>
-          </div>
-          <div class="name">
-            <p>i****</p>
-          </div>
-        </div>
-        <div class="type">
-          <label>Type</label>
-          <p>Renewal Project</p>
-        </div>
-        <div class="period">
-          <label>Period</label>
-          <p>Mar. 2019 ~ May. 2019</p>
-        </div>
-        <div class="role">
-          <label>Role</label>
-          <p>Front-end</p>
-        </div>
-        <div class="contribution">
-          <label>Contribution</label>
-          <p>80%</p>
-        </div>
-        <div class="skills">
-          <label>Skills</label>
-          <p>.NET, Microsoft SQL Server, Vue.js, QlikView</p>
-        </div>
-        <div class="desc">
-          <label>Description</label>
-          <p>Applied new design of intranet site i*** that manages company sales and developed with Vue.js to improve speed. Created an internal library so that the eChart.js library that does not support Vue.js can be used in Vue.js.</p>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <div class="company-info">
-            <img
-              src="https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
-              class="logo"
-            />
-            <div class="company-name">
-              <p>Marsh Korea</p>
-            </div>
-          </div>
-          <div class="name">
-            <p>i*** Improvement to prepare for advanced browser</p>
-          </div>
-        </div>
-        <div class="type">
-          <label>Type</label>
-          <p>Renewal Project</p>
-        </div>
-        <div class="period">
-          <label>Period</label>
-          <p>Nov. 2018 ~ May. 2019</p>
-        </div>
-        <div class="role">
-          <label>Role</label>
-          <p>Front-end, Back-end</p>
-        </div>
-        <div class="contribution">
-          <label>Contribution</label>
-          <p>100%</p>
-        </div>
-        <div class="skills">
-          <label>Skills</label>
-          <p>.NET, .NET MVC, Microsoft SQL Server</p>
-        </div>
-        <div class="desc">
-          <label>Description</label>
-          <p>Compatibility work so that the intranet site i*** that manages company sales can work not only in IE but also in cross browsers (Chrome, Firefox, Edge).</p>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <div class="company-info">
-            <img
-              src="https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
-              class="logo"
-            />
-            <div class="company-name">
-              <p>Marsh Korea</p>
-            </div>
-          </div>
-          <div class="name">
-            <p>H*********</p>
-          </div>
-        </div>
-        <div class="type">
-          <label>Type</label>
-          <p>New Project</p>
-        </div>
-        <div class="period">
-          <label>Period</label>
-          <p>Oct. 2018 ~ May. 2019</p>
-        </div>
-        <div class="role">
-          <label>Role</label>
-          <p>Front-end</p>
-        </div>
-        <div class="contribution">
-          <label>Contribution</label>
-          <p>100%</p>
-        </div>
-        <div class="skills">
-          <label>Skills</label>
-          <p>Vue.js</p>
-        </div>
-        <div class="desc">
-          <label>Description</label>
-          <p>Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of H*********, an Australian company.</p>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <div class="company-info">
-            <img
-              src="https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
-              class="logo"
-            />
-            <div class="company-name">
-              <p>Marsh Korea</p>
-            </div>
-          </div>
-          <div class="name">
-            <p>D*********</p>
-          </div>
-        </div>
-        <div class="type">
-          <label>Type</label>
-          <p>New Project</p>
-        </div>
-        <div class="period">
-          <label>Period</label>
-          <p>Aug. 2018 ~ Mar. 2019</p>
-        </div>
-        <div class="role">
-          <label>Role</label>
-          <p>Front-end</p>
-        </div>
-        <div class="contribution">
-          <label>Contribution</label>
-          <p>100%</p>
-        </div>
-        <div class="skills">
-          <label>Skills</label>
-          <p>Vue.js</p>
-        </div>
-        <div class="desc">
-          <label>Description</label>
-          <p>Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of D*********, a British company.</p>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <div class="company-info">
-            <img
-              src="https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
-              class="logo"
-            />
-            <div class="company-name">
-              <p>Marsh Korea</p>
-            </div>
-          </div>
-          <div class="name">
-            <p>MCare Mobile Enrollment</p>
-          </div>
-        </div>
-        <div class="type">
-          <label>Type</label>
-          <p>Renewal Project</p>
-        </div>
-        <div class="period">
-          <label>Period</label>
-          <p>Sep. 2018 ~ Nov. 2018</p>
-        </div>
-        <div class="role">
-          <label>Role</label>
-          <p>Front-end</p>
-        </div>
-        <div class="contribution">
-          <label>Contribution</label>
-          <p>30%</p>
-        </div>
-        <div class="skills">
-          <label>Skills</label>
-          <p>Vue.js</p>
-        </div>
-        <div class="desc">
-          <label>Description</label>
-          <p>Development of a survey module that allows employees to directly select insurance coverage when providing employee insurance among domestic customers.</p>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <div class="company-info">
-            <img
-              src="https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
-              class="logo"
-            />
-            <div class="company-name">
-              <p>Marsh Korea</p>
-            </div>
-          </div>
-          <div class="name">
-            <p>MCare Group/Menu Management</p>
-          </div>
-        </div>
-        <div class="type">
-          <label>Type</label>
-          <p>Renewal Project</p>
-        </div>
-        <div class="period">
-          <label>Period</label>
-          <p>Jun. 2018 ~ Aug. 2018</p>
-        </div>
-        <div class="role">
-          <label>Role</label>
-          <p>Front-end, Back-end</p>
-        </div>
-        <div class="contribution">
-          <label>Contribution</label>
-          <p>30%</p>
-        </div>
-        <div class="skills">
-          <label>Skills</label>
-          <p>.NET, Microsoft SQL Server, Vue.js</p>
-        </div>
-        <div class="desc">
-          <label>Description</label>
-          <p>Development of admin menu for MCare, an intranet site that manages insurance claims of employees of domestic customers.</p>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <div class="company-info">
-            <img
-              src="https://www.kaoni.com/wp-content/uploads/2018/04/logofile3.png"
-              class="logo"
-            />
-            <div class="company-name">
-              <p>KAONi</p>
-            </div>
-          </div>
-          <div class="name">
-            <p>Seoul National University Bundang Hospital groupware reconstruction</p>
-          </div>
-        </div>
-        <div class="type">
-          <label>Type</label>
-          <p>Renewal Project</p>
-        </div>
-        <div class="period">
-          <label>Period</label>
-          <p>Aug. 2017 ~ Mar. 2018</p>
-        </div>
-        <div class="role">
-          <label>Role</label>
-          <p>Front-end, Back-end, Data Migration</p>
-        </div>
-        <div class="contribution">
-          <label>Contribution</label>
-          <p>15%</p>
-        </div>
-        <div class="skills">
-          <label>Skills</label>
-          <p>.NET, Microsoft SQL Server, MS-Exchange</p>
-        </div>
-        <div class="desc">
-          <label>Description</label>
-          <p>Changed the existing groupware of Seoul National University Bundang Hospital to KAONi's groupware. Customized mail, address book and calendar modules and performed data migration.</p>
+          <p>{{ project.desc }}</p>
         </div>
       </div>
     </div>
