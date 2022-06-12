@@ -45,15 +45,6 @@ export default {
 </template>
 
 <style scoped>
-.project-container {
-  min-height: 100vh;
-}
-
-.project-list {
-  display: block;
-  margin: 0 auto;
-}
-
 .project-item {
   border: 1px solid #8a909852;
   margin: 20px;
@@ -111,21 +102,12 @@ label::after {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .project-list {
-    width: 100%;
-  }
-
   .name {
     font-size: 23px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
-  .project-list {
-    width: 100%;
-    max-width: 700px;
-  }
-
   .project-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -153,10 +135,6 @@ label::after {
 }
 
 @media (min-width: 1280px) {
-  .project-list {
-    width: 700px;
-  }
-
   .project-item {
     display: grid;
     grid-template-columns: 1fr 1fr;

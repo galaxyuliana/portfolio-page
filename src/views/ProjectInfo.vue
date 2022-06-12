@@ -54,69 +54,9 @@ export default {
   margin: 0 auto;
 }
 
-.project-item {
-  border: 1px solid #8a909852;
-  margin: 20px;
-  padding: 20px;
-}
-
-.project-item:hover {
-  border: 1px solid #2A314252;
-}
-
-.project-item p {
-  display: inline-block;
-}
-
-.project-info {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #8a909852;
-}
-
-.company-info {
-  text-align: right;
-}
-
-.logo {
-  max-height: 15px;
-  margin-right: 5px;
-}
-
-.company-name {
-  display: inline-block;
-}
-
-.company-name p {
-  margin: 0;
-  color: #8a9098;
-}
-
-.name {
-  font-weight: bold;
-  margin: 0;
-}
-
-.name p {
-  margin: 0;
-}
-
-label {
-  font-weight: 800;
-}
-
-label::after {
-  content: "|";
-  margin: 0px 5px;
-}
-
 @media (min-width: 320px) and (max-width: 767px) {
   .project-list {
     width: 100%;
-  }
-
-  .name {
-    font-size: 23px;
   }
 }
 
@@ -125,61 +65,11 @@ label::after {
     width: 100%;
     max-width: 700px;
   }
-
-  .project-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .project-info {
-    grid-column: 1 / span 2;
-  }
-
-  .name {
-    font-size: 30px;
-  }
-
-  .skills {
-    grid-column: 1 / span 2;
-  }
-
-  .desc {
-    grid-column: 1 / span 2;
-  }
-
-  .desc p {
-    display: inline;
-  }
 }
 
 @media (min-width: 1280px) {
   .project-list {
     width: 700px;
-  }
-
-  .project-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .project-info {
-    grid-column: 1 / span 2;
-  }
-
-  .name {
-    font-size: 30px;
-  }
-
-  .skills {
-    grid-column: 1 / span 2;
-  }
-
-  .desc {
-    grid-column: 1 / span 2;
-  }
-
-  .desc p {
-    display: inline;
   }
 }
 </style>
