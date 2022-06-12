@@ -1,45 +1,45 @@
 <script>
-import jsonData from "./../json/data.json";
-import ProjectItem from "./../components/ProjectItem.vue";
 export default {
-  components: { ProjectItem },
-  data() {
-    return {
-      projects: jsonData.projects,
-      companies: jsonData["company-profiles"],
-    };
-  },
-  methods: {
-    combineJson() {
-      let result = this.projects.reduce((returnArray, item) => {
-        let match = this.companies.find(
-          (el) => el["company-code"] == item["company-code"]
-        );
-        if (match) {
-          returnArray.push({
-            ...item,
-            ["company-name"]: match.name,
-            url: match.url,
-          });
-        }
-        return returnArray;
-      }, []);
-      console.log(result);
-      return result;
-    },
-  },
+  props: ["project"],
 };
 </script>
 
 <template>
-  <div class="project-container">
-    <h1>Featured Projects</h1>
-    <div class="project-list">
-      <project-item
-        v-for="(project, index) in combineJson()"
-        :project="project"
-        :index="index"
-      ></project-item>
+  <div class="project-item">
+    <div class="project-info">
+      <div class="company-info">
+        <img :src="project.url" class="logo" />
+        <div class="company-name">
+          <p>{{ project["company-name"] }}</p>
+        </div>
+      </div>
+      <div class="name">
+        <p>{{ project.name }}</p>
+      </div>
+    </div>
+    <div class="type">
+      <label>Type</label>
+      <p>{{ project.type }}</p>
+    </div>
+    <div class="period">
+      <label>Period</label>
+      <p>{{ project.period }}</p>
+    </div>
+    <div class="role">
+      <label>Role</label>
+      <p>{{ project.role }}</p>
+    </div>
+    <div class="contribution">
+      <label>Contribution</label>
+      <p>{{ project.contribution }}</p>
+    </div>
+    <div class="skills">
+      <label>Skills</label>
+      <p>{{ project.skills }}</p>
+    </div>
+    <div class="desc">
+      <label>Description</label>
+      <p>{{ project.desc }}</p>
     </div>
   </div>
 </template>
