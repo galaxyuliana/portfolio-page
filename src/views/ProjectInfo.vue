@@ -199,7 +199,7 @@
         </div>
         <div class="desc">
           <label>Description</label>
-          <p>Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of H*********, a Australian company.</p>
+          <p>Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of H*********, an Australian company.</p>
         </div>
       </div>
       <div class="project-item">
@@ -396,6 +396,24 @@
   border-bottom: 1px solid #8a909852;
 }
 
+.company-info {
+  text-align: right;
+}
+
+.logo {
+  max-height: 15px;
+  margin-right: 5px;
+}
+
+.company-name {
+  display: inline-block;
+}
+
+.company-name p {
+  margin: 0;
+  color: #8a9098;
+}
+
 .name {
   font-weight: bold;
   margin: 0;
@@ -419,10 +437,6 @@ label::after {
     width: 100%;
   }
 
-  .logo {
-    max-height: 25px;
-  }
-
   .name {
     font-size: 23px;
   }
@@ -441,14 +455,6 @@ label::after {
 
   .project-info {
     grid-column: 1 / span 2;
-  }
-
-  .company-name {
-    display: inline-block;
-  }
-
-  .logo {
-    max-height: 45px;
   }
 
   .name {
@@ -480,14 +486,6 @@ label::after {
 
   .project-info {
     grid-column: 1 / span 2;
-  }
-
-  .logo {
-    max-height: 45px;
-  }
-
-  .company-name {
-    display: inline-block;
   }
 
   .name {

@@ -35,6 +35,7 @@ export default {
         ["DBeaver", 1.2],
         ["Exchange Powershell", 1],
         ["Git", 3],
+        ["Google Colab", 1],
         ["Jira", 1.2],
         ["QlikView", 0.3],
         ["SQL Developer", 0.5],
@@ -91,13 +92,12 @@ export default {
       I am the one who is Responsible and Adaptable.
     </div>
     <div class="skills">
-      Technical Skills
+      <h2>Technical Skills</h2>
       <GChart type="BarChart" :data="skillsData" :options="skillsOptions" />
       <GChart type="BarChart" :data="toolsData" :options="toolsOptions" />
     </div>
     <div class="assessment">
-      What I got from the Manager Assessment
-      <br />
+      <h2>What I got from the Manager Assessment</h2>
       What are some things Yuliana does well?
       <ul>
         <li>Produce stable and reliable output with good quality control and very efficient in communication</li>
