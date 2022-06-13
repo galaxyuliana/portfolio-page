@@ -110,7 +110,7 @@ label::after {
 @media (min-width: 768px) and (max-width: 1279px) {
   .project-item {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
   }
 
   .project-info {
@@ -137,7 +137,7 @@ label::after {
 @media (min-width: 1280px) {
   .project-item {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
   }
 
   .project-info {
