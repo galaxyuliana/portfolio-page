@@ -95,17 +95,60 @@
     {
       "company-code": "km",
       "name": "KEY MEDIA PTY LTD",
-      "url": "https://keymedia.com/images/Key-Media-Pty-Ltd_Leading-International-Media-Company-2018.png"
+      "url": "https://keymedia.com/images/Key-Media-Pty-Ltd_Leading-International-Media-Company-2018.png",
+      "location": "Seoul, Republic of Korea"
     },
     {
       "company-code": "mk",
       "name": "Marsh Korea",
-      "url": "https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg"
+      "url": "https://www.marsh.com/content/dam/marsh/Imagery/marsh-2/logos/Marsh-header-rgb-blue.svg",
+      "location": "Seoul, Republic of Korea"
     },
     {
       "company-code": "ki",
       "name": "KAONi",
-      "url": "https://www.kaoni.com/wp-content/uploads/2018/04/logofile3.png"
+      "url": "https://www.kaoni.com/wp-content/uploads/2018/04/logofile3.png",
+      "location": "Seoul, Republic of Korea"
+    }
+  ],
+  "educations" : [
+    {
+      "code": "ys",
+      "major": "Computer Engineering",
+      "degree": "Master in Engineering",
+      "gpa": "4.28 / 4.3",
+      "period": "Mar. 2019 ~ Aug. 2021",
+      "desc": "Went to Yonsei University Graduate School of Engineering (GSE) to develop professionalism. Was able to learn about algorithms, 3d graphics, app platform design, databases, artificial intelligence, and etc."
+    },
+    {
+      "code": "bw",
+      "major": "Smart IT",
+      "degree": "Bachelor of Science",
+      "gpa": "4.5 / 4.5",
+      "period": "Mar. 2017 ~ Feb. 2018",
+      "desc": "Went to university to get bachelor's degree. It was an opportunity to learn Java, design, PHP, and more."
+    },
+    {
+      "code": "bw",
+      "major": "Smart IT",
+      "degree": "Associate Degree of Science",
+      "gpa": "4.47 / 4.5",
+      "period": "Mar. 2014 ~ Feb. 2017",
+      "desc": "Wanted to become a developer, so I went to a college where I could learn more about practical work. Was able to experience various programming languages such as Java, .NET, C#, HTML, JQuery, SQL, and Android."
+    }
+  ],
+  "universities": [
+    {
+      "code": "ys",
+      "name": "Yonsei University",
+      "url": "https://www.yonsei.ac.kr/_res/sc/img/intro/img_symbol22.png",
+      "location": "Seoul, Republic of Korea"
+    },
+    {
+      "code": "bw",
+      "name": "Baewha Women's University",
+      "url": "http://www.baewha.ac.kr/mbs/kr/images/contents/intro/img_symbol02.gif",
+      "location": "Seoul, Republic of Korea"
     }
   ]
 }
