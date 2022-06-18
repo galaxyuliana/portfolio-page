@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-import ProfileInfo from "../views/ProfileInfo.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +6,7 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: ProfileInfo,
+      component: () => import("../views/ProfileInfo.vue"),
     },
     {
       path: "/education",

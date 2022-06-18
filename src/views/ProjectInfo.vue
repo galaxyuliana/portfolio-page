@@ -6,15 +6,13 @@ export default {
   data() {
     return {
       projects: jsonData.projects,
-      companies: jsonData["company-profiles"],
+      companies: jsonData["companies"],
     };
   },
   methods: {
     combineJson() {
       let result = this.projects.reduce((returnArray, item) => {
-        let match = this.companies.find(
-          (el) => el["company-code"] == item["company-code"]
-        );
+        let match = this.companies.find((el) => el.code == item.code);
         if (match) {
           returnArray.push({
             ...item,
