@@ -41,33 +41,3 @@ export default {
     </div>
   </div>
 </template>
-
-<style scoped>
-.education-container {
-  min-height: 100vh;
-}
-
-.education-list {
-  display: block;
-  margin: 0 auto;
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .education-list {
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1279px) {
-  .education-list {
-    width: 100%;
-    max-width: 700px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .education-list {
-    width: 700px;
-  }
-}
-</style>
