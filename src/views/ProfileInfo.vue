@@ -73,7 +73,6 @@ export default {
           Experienced in IT solution, Insurance Brokerage, and Media Industry
         </li>
         <li>Master of Engineering (Computer Engineering)</li>
-        <li>Arriving in Vancouver on June 23rd</li>
       </ul>
       <ul id="contacts">
         <li>
