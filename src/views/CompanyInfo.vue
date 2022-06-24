@@ -23,7 +23,6 @@ export default {
         }
         return returnArray;
       }, []);
-      console.log(result);
       return result;
     },
   },

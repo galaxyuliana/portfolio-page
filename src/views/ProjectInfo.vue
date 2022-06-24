@@ -11,7 +11,14 @@ export default {
   },
   methods: {
     combineJson() {
-      let result = this.projects.reduce((returnArray, item) => {
+      let projectList = this.projects;
+      if (this.$route.params.code != null) {
+        projectList = this.projects.filter(
+          (el) => el.code == this.$route.params.code
+        );
+      }
+
+      let result = projectList.reduce((returnArray, item) => {
         let match = this.companies.find((el) => el.code == item.code);
         if (match) {
           returnArray.push({

@@ -36,7 +36,7 @@ export default {
       <label>Description</label>
       <p>{{ company.desc }}</p>
     </div>
-    <a href="#" class="btn-project">Featured Projects</a>
+    <router-link :to="{name: 'projectCode', params: {code: company.code}}" class="btn-project">Featured Projects</router-link>
   </div>
 </template>
 
