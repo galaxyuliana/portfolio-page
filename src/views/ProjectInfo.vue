@@ -37,7 +37,15 @@ export default {
 
 <template>
   <div class="project-container">
-    <h1>Featured Projects</h1>
+    <h1>
+      Featured Projects
+      <span v-if="this.$route.params.code != null">
+        -
+        {{
+          this.companies.find((el) => el.code == this.$route.params.code).name
+        }}
+      </span>
+    </h1>
     <div class="project-list">
       <project-item
         v-for="(project, index) in combineJson()"

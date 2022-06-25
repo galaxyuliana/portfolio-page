@@ -83,13 +83,6 @@ export default {
         </li>
       </ul>
     </div>
-    <div class="about-me">
-      Hello, My name is Yuliana Y. Shin.<br />
-      I'm a full stack developer who can handle both frontend and backend.<br />
-      I have worked as a .NET web developer in Korea for over 4 years,
-      and I will be arriving in Vancouver on June 23rd to start a new chapter in life.<br />
-      I am the one who is Responsible and Adaptable.
-    </div>
     <div class="skills">
       <h2>Technical Skills</h2>
       <GChart type="BarChart" :data="skillsData" :options="skillsOptions" />
@@ -121,5 +114,18 @@ export default {
 #contacts {
   list-style: none;
   padding: 0px;
+}
+
+#contacts li {
+  display: inline-block;
+}
+
+#contacts li:after {
+  content: "|";
+  margin: 0px 5px;
+}
+
+#contacts li:last-child:after {
+  content: "";
 }
 </style>
