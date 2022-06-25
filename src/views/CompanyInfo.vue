@@ -31,7 +31,7 @@ export default {
 
 <template>
   <div class="company-container">
-    <h1>Company</h1>
+    <h1 class="title">COMPANY</h1>
     <div class="company-list">
       <company-item
         v-for="(company, index) in combineJson()"

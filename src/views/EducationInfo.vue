@@ -31,7 +31,7 @@ export default {
 
 <template>
   <div class="education-container">
-    <h1>Education</h1>
+    <h1 class="title">EDUCATION</h1>
     <div class="education-list">
       <education-item
         v-for="(education, index) in combineJson()"

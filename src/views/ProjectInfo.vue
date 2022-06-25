@@ -37,8 +37,8 @@ export default {
 
 <template>
   <div class="project-container">
-    <h1>
-      Featured Projects
+    <h1 class="title">
+      FEATURED PROJECTS
       <span v-if="this.$route.params.code != null">
         -
         {{
