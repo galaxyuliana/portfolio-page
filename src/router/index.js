@@ -5,7 +5,7 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "home",
+      name: "hash",
       component: () => import("../views/ProfileInfo.vue"),
     },
     {

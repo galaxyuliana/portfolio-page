@@ -73,6 +73,8 @@ export default {
           Experienced in IT solution, Insurance Brokerage, and Media Industry
         </li>
         <li>Master of Engineering (Computer Engineering)</li>
+        <li>Work well independently or in a team environment</li>
+        <li>Excellent record of dependability and reliability</li>
       </ul>
       <ul id="contacts">
         <li>
