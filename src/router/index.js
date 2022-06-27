@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.publicPath),
   routes: [
     {
       path: "/",
-      name: "hash",
+      name: "home",
       component: () => import("../views/ProfileInfo.vue"),
     },
     {
