@@ -68,9 +68,9 @@ export default {
       <h1 id="name">Yuliana Y. Shin</h1>
       <h2 id="position">Full Stack Web Developer</h2>
       <ul id="details">
-        <li>4+ years experience in Web Development</li>
+        <li>4+ years of experience in Web Development</li>
         <li>
-          Experienced in IT solution, Insurance Brokerage, and Media Industry
+          Experienced in IT solutions, Insurance Brokerage, and Media Industry
         </li>
         <li>Master of Engineering (Computer Engineering)</li>
         <li>Work well independently or in a team environment</li>

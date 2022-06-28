@@ -26,7 +26,7 @@
       "degree": "Master in Engineering",
       "gpa": "4.28 / 4.3",
       "period": "Mar. 2019 ~ Aug. 2021",
-      "desc": "Went to Yonsei University Graduate School of Engineering (GSE) to develop professionalism. Was able to learn about algorithms, 3d graphics, app platform design, databases, artificial intelligence, and etc."
+      "desc": "Went to Yonsei University Graduate School of Engineering (GSE) to develop professionalism. Was able to learn about algorithms, 3d graphics, app platform design, databases, artificial intelligence, etc."
     },
     {
       "code": "bw",
@@ -34,7 +34,7 @@
       "degree": "Bachelor of Science",
       "gpa": "4.5 / 4.5",
       "period": "Mar. 2017 ~ Feb. 2018",
-      "desc": "Went to university to get bachelor's degree. It was an opportunity to learn Java, design, PHP, and more."
+      "desc": "Went to university to get a bachelor's degree. It was an opportunity to learn Java, design, PHP, and more."
     },
     {
       "code": "bw",
@@ -52,7 +52,7 @@
       "position": "Junior Web Developer",
       "team": "Web Department",
       "type": "Full-time, Full Stack Web Developer",
-      "desc": "Web development and maintenance of magazine sites in 8 fields including mortgage, insurance, HR, safety, education, consumer, law and wealth."
+      "desc": "Web development and maintenance of magazine sites in 8 fields including mortgage, insurance, HR, safety, education, consumer, law, and wealth."
     },
     {
       "code": "mk",
@@ -60,7 +60,7 @@
       "position": "Web Developer",
       "team": "GIT",
       "type": "Full-time, Full Stack Web Developer",
-      "desc": "Web development for intranet and customer insurance claims. Customize based on customer requirements and business' needs. Supported for branch offices in Asia Pacific."
+      "desc": "Web development for intranet and customer insurance claims. Customize based on customer requirements and business needs. Supported branch offices in the Asia Pacific."
     },
     {
       "code": "ki",
@@ -80,7 +80,7 @@
       "role": "Publishing, Front-end, Back-end",
       "contribution": "40%",
       "skills": ".NET 5, HTML, JavaScript, Microsoft SQL Server, SCSS",
-      "desc": "A renewal project that analyzes and redesign the structure of the lexpert.ca site, which was previously developed based on the .NET Web Forms framework, and then develops it based on the latest framework, .NET 5 Razor Pages."
+      "desc": "A renewal project that analyzes and redesigns the structure of the lexpert.ca site, which was previously developed based on the .NET Web Forms framework, and then develops it based on the latest framework, .NET 5 Razor Pages."
     },
     {
       "code": "mk",
@@ -90,7 +90,7 @@
       "role": "Front-end",
       "contribution": "100%",
       "skills": "Vue.js",
-      "desc": "Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of L*******, a Hong Kong company."
+      "desc": "Development of a website that provides information on employee insurance coverage, insurance claims, and information to employees of L*******, a Hong Kong company."
     },
     {
       "code": "mk",
@@ -120,7 +120,7 @@
       "role": "Front-end",
       "contribution": "100%",
       "skills": "Vue.js",
-      "desc": "Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of H*********, an Australian company."
+      "desc": "Development of a website that provides information on employee insurance coverage, insurance claims, and information to employees of H*********, an Australian company."
     },
     {
       "code": "mk",
@@ -130,7 +130,7 @@
       "role": "Front-end",
       "contribution": "100%",
       "skills": "Vue.js",
-      "desc": "Development of a website that provides information on employee insurance coverage, insurance claims and information to employees of D*********, a British company."
+      "desc": "Development of a website that provides information on employee insurance coverage, insurance claims, and information to employees of D*********, a British company."
     },
     {
       "code": "mk",
@@ -160,7 +160,7 @@
       "role": "Front-end, Back-end, Data Migration",
       "contribution": "15%",
       "skills": ".NET, Microsoft SQL Server, MS-Exchange",
-      "desc": "Changed the existing groupware of Seoul National University Bundang Hospital to KAONi's groupware. Customized mail, address book and calendar modules and performed data migration."
+      "desc": "Changed the existing groupware of Seoul National University Bundang Hospital to KAONi's groupware. Customized mail, address book, and calendar modules and performed data migration."
     }
   ],
   "universities": [
