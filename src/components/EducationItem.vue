@@ -44,10 +44,10 @@ export default {
       <label>Period</label>
       <p>{{ education.period }}</p>
     </div>
-    <div class="desc">
+    <!-- <div class="desc">
       <label>Description</label>
       <p>{{ education.desc }}</p>
-    </div>
+    </div> -->
   </div>
 </template>
 
