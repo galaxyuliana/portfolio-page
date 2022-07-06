@@ -17,7 +17,6 @@ export default {
           returnArray.push({
             ...item,
             name: match.name,
-            url: match.url,
             location: match.location,
           });
         }

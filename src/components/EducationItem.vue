@@ -1,12 +1,26 @@
 <script>
 export default {
   props: ["education"],
+  methods: {
+    getImage(code) {
+      switch (code) {
+        case "ys":
+          // eslint-disable-next-line no-case-declarations
+          const imgUrl = new URL("../assets/yonsei.png", import.meta.url);
+          return imgUrl;
+        case "bw":
+          // eslint-disable-next-line no-case-declarations
+          const imgUrl2 = new URL("../assets/baewha.gif", import.meta.url);
+          return imgUrl2;
+      }
+    },
+  },
 };
 </script>
 
 <template>
   <div class="education-item">
-    <img :src="education.url" class="logo" />
+    <img :src="getImage(education.code)" class="logo" />
     <div class="name">
       <p>{{ education.name }}</p>
     </div>

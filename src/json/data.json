@@ -167,13 +167,11 @@
     {
       "code": "ys",
       "name": "Yonsei University",
-      "url": "https://www.yonsei.ac.kr/_res/sc/img/intro/img_symbol22.png",
       "location": "Seoul, Republic of Korea"
     },
     {
       "code": "bw",
       "name": "Baewha Women's University",
-      "url": "http://www.baewha.ac.kr/mbs/kr/images/contents/intro/img_symbol02.gif",
       "location": "Seoul, Republic of Korea"
     }
   ]
